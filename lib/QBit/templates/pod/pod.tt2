@@ -6,6 +6,7 @@
     [% END %]
 [% END %]
 
+[% WRAPPER page %]
 <style>
   .pod h1 {
       color: #006699;
@@ -75,4 +76,6 @@
   <div class="pod">
     [% data.data %]
   </div>
+[% END %]
+
 [% END %]
