@@ -1,10 +1,10 @@
-libqbit-webinterface-controller-pod-perl (0.002) raring; urgency=low
+libtertiusqbit-webinterface-controller-pod-perl (0.002) raring; urgency=low
 
-  * Fixed for QBit::WebInterface 0.010
+  * Fixed for TertiusQBit::WebInterface 0.010
 
  -- Sergei Svistunov <sergei-svistunov@yandex.ru>  Thu, 16 Jan 2014 19:40:06 +0400
 
-libqbit-webinterface-controller-pod-perl (0.001) raring; urgency=low
+libtertiusqbit-webinterface-controller-pod-perl (0.001) raring; urgency=low
 
   * Initial commit
 

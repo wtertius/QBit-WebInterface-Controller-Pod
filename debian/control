@@ -1,12 +1,14 @@
-Source: libqbit-webinterface-controller-pod-perl
+Source: libtertiusqbit-webinterface-controller-pod-perl
 Section: perl
 Priority: extra
-Maintainer: Sergei Svistunov <sergei-svistunov@yandex.ru>
-Build-Depends: debhelper (>= 8.0.0), perl, libqbit-perl, libqbit-application-perl, libqbit-webinterface-perl (>=0.010), libpod-simple-perl
+Maintainer: Dmitry Lukiyanchuk <wtertius@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), perl, libtertiusqbit-perl, libtertiusqbit-application-perl, libtertiusqbit-webinterface-perl (>=0.010), libpod-simple-perl
 Standards-Version: 3.9.4
 
-Package: libqbit-webinterface-controller-pod-perl
+Package: libtertiusqbit-webinterface-controller-pod-perl
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, perl, libqbit-perl, libqbit-application-perl, libqbit-webinterface-perl (>=0.010), libpod-simple-perl
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, perl, libtertiusqbit-perl, libtertiusqbit-application-perl, libtertiusqbit-webinterface-perl (>=0.010), libpod-simple-perl
+Conflicts: libqbit-webinterface-controller-pod-perl
+Replaces: libqbit-webinterface-controller-pod-perl
 Description: POD viewer for QBit application.
  POD viewer for QBit application.
