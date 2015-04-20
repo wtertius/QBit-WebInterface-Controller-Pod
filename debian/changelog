@@ -1,3 +1,9 @@
+libtertiusqbit-webinterface-controller-pod-perl (0.003) raring; urgency=low
+
+  * Rename debian package
+
+ -- Dmitry Lukiyanchuk <tertius@yandex-team.ru>  Mon, 20 Apr 2015 12:57:05 +0300
+
 libtertiusqbit-webinterface-controller-pod-perl (0.002) raring; urgency=low
 
   * Fixed for TertiusQBit::WebInterface 0.010
